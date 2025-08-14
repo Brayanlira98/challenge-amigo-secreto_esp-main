@@ -1,4 +1,4 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// Autor: Brayan Israel Lira Gutiérrez. Estudiante de ingenieria fisica en la Universidad de Guanajuato
 let amigos = [];
 let lista = document.getElementById("listaAmigos");
 let amigoSeleccionado = document.getElementById("resultado");
@@ -8,12 +8,10 @@ function agregarAmigo(){
     let nombre = document.getElementById ("amigo").value;
 
     if (nombre == ""){
-        alert ("Por favor, inserte un nombre");
+        alert ("Por favor, inserte un nombre valido.");
     } else {
         amigos.push(nombre);
         limpiarCaja();
-        // mostrarLista();
-        console.log(amigos.length);
         mostrarLista();
     }
 }
@@ -31,10 +29,9 @@ function mostrarLista(){
 
 function sortearAmigo(){
     if (amigos.length==0){
-        alert ("Introduce los nombres a sortear");
+        alert ("Introduce los nombres a sortear.");
     } else {
         nombreElegido=amigos[Math.floor(Math.random()*amigos.length)];
-        console.log(nombreElegido);
         lista.innerHTML="";
         amigoSeleccionado.innerHTML=`El amigo secreto sorteado es: ${nombreElegido}`;
     }
