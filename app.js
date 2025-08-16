@@ -1,14 +1,19 @@
-// Autor: Brayan Israel Lira Gutiérrez. Estudiante de ingenieria fisica en la Universidad de Guanajuato
+// Autor: Brayan Israel Lira Gutiérrez. Estudiante de Ingeniería Física en la Universidad de Guanajuato.
+
+//Definiendo variables
 let amigos = [];
 let lista = document.getElementById("listaAmigos");
 let amigoSeleccionado = document.getElementById("resultado");
 
+
+//Creando función para ingresar nombres que se deben sortear
 function agregarAmigo(){
 
     let nombre = document.getElementById ("amigo").value;
 
+    //Validando que la entrada sea válida con un nombre
     if (nombre == ""){
-        alert ("Por favor, inserte un nombre valido.");
+        alert ("Por favor, inserte un nombre válido.");
     } else {
         amigos.push(nombre);
         limpiarCaja();
@@ -16,6 +21,8 @@ function agregarAmigo(){
     }
 }
 
+
+//Creando función para mostrar los nombres ingresados para sortear
 function mostrarLista(){
     lista.innerHTML="";
 
@@ -27,7 +34,10 @@ function mostrarLista(){
 
 }
 
+
+//Creando función para sortear los nombres ingresados
 function sortearAmigo(){
+    //Validando que existan nombres para sortear
     if (amigos.length==0){
         alert ("Introduce los nombres a sortear.");
     } else {
@@ -37,7 +47,7 @@ function sortearAmigo(){
     }
 }
 
-
+//Creando función para limpiar la caja e ingresar los nombres a sortear.
 function limpiarCaja() {
     document.getElementById("amigo").value="";
 }
