@@ -34,6 +34,11 @@ En el caso de que se presione el botón "Sortear amigo" sin antes haber agregado
 
 ![verificacion 2](https://github.com/user-attachments/assets/e7ee5448-5d5e-47df-a904-6c0a05f14c45)
 
+## Hacer uso del programa
+
+En el siguiente enlace, usted podrá probar el programa antes descrito:
+https://brayanlira98.github.io/challenge-amigo-secreto_esp-main/ 
+
 ## Autor
 
 Brayan Israel Lira Gutiérrez. Estudiante de Ingeniería Física en la Universidad de Guanajuato.
