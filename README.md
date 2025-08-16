@@ -16,7 +16,9 @@ El programa permite ingresar los nombres a sortear por medio de una caja de text
 ![ingresar](https://github.com/user-attachments/assets/7c8b2acc-a622-450b-b75c-86279b90953c)
 
 Al realizar esta acción, el nombre aparecerá debajo del espacio donde se ingresa la información y se tendrá la opción de ingresar otros elementos repitiendo el proceso. La lista mostrada se seguirá actualizando al ir agregando los nombres y, en caso de presionar "Añadir" sin ingresar un nombre, aparecerá un mensaje de alerta indicando que se debe ingresar un nombre válido.
+
 ![ingreaando nombres](https://github.com/user-attachments/assets/d95e43b5-eae1-484d-9573-f208ac73d597)
+
 ![validacion 1](https://github.com/user-attachments/assets/36a6a9a3-0c92-460c-837e-b07b07cf883d)
 
 Al terminar de ingresar los nombres, presione el botón "Sortear amigo"; al hacerlo, el programa seleccionará de manera aleatoria uno de los nombres ingresados y se mostrará un mensaje en la pantalla indicando el elemento elegido.
